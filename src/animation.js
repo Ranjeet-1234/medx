@@ -3,55 +3,104 @@ export default function ServicesSlider() {
         {
             title: "Panchakarma",
             description: "Detoxification therapy.",
-            img: "https://img.freepik.com/free-photo/spa-concept-with-pink-salt-towel_23-2148380113.jpg",
+            img: "https://aradhanaayurveda.com/wp-content/uploads/2024/07/What-Role-Does-Panchakarma-Play-in-Ayurvedic-Weight-Management-in-Hyderabad.jpg",
         },
         {
             title: "Herbal Therapy",
             description: "Personalized herbal treatment.",
-            img: "https://img.freepik.com/free-photo/ayurvedic-herbal-ingredients-wooden-bowl_1150-28768.jpg",
+            img: "https://pharmaceutical-journal.com/wp-content/uploads/2021/01/herbal-medicines-ss-18-scaled.jpg",
         },
         {
             title: "Nadi Pariksha",
             description: "Pulse diagnosis.",
-            img: "https://img.freepik.com/free-photo/nadi-pariksha-concept_1373-513.jpg",
+            img: "https://www.naditarangini.com/wp-content/uploads/2024/04/AYURVEDA-PULSE.webp",
         },
         {
             title: "Abhyanga",
             description: "Oil massage therapy.",
-            img: "https://img.freepik.com/free-photo/woman-having-abhyanga-ayurvedic-oil-massage_23-2148891826.jpg",
+            img: "https://vlcc.com/_next/image?url=https%3A%2F%2Fd146hunxuupfmg.cloudfront.net%2Fblog_images%2Fjpeg-optimizer_AdobeStock_330894715.webp&w=3840&q=75",
         },
         {
             title: "Basti",
             description: "Medicated enema treatment.",
-            img: "https://img.freepik.com/free-photo/basti-ayurvedic-therapy-concept_1150-28975.jpg",
+            img: "https://atmabodhwellness.com/wp-content/uploads/2023/12/bastikarma.jpg",
         },
-        
+        {
+            title: "Shirodhara",
+            description: "Oil pouring on forehead.",
+            img: "https://www.starlingholistic.co.uk/uploads/1/3/8/4/138425273/starling-holistic-shirodhara-720_orig.jpg",
+        },
+        {
+            title: "Weight Management",
+            description: "Herbal weight control.",
+            img: "https://divafashionhub.com/wp-content/uploads/2024/10/Weight-loss-to-weight-management-1.png",
+        },
+        {
+            title: "Thyroid Regulation",
+            description: "Natural hormone balance.",
+            img: "https://thebiostation.com/wp-content/uploads/2017/08/the-biostation-understanding-hashimotos-disease-hypothyroidism-featured-1.jpg",
+        },
+        {
+            title: "Diabetes Reversal",
+            description: "Manage naturally.",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKdhdPDiBKhKMawKmQLMWle29_0F5uupPYuA&s",
+        },
+        {
+            title: "Joint Pain Relief",
+            description: "Arthritis & joint care.",
+            img: "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1849185.jpg",
+        },
     ];
     const services2 = [
         {
             title: "Shirodhara",
             description: "Oil pouring on forehead.",
-            img: "https://img.freepik.com/free-photo/shirodhara-therapy-ayurveda-treatment_1150-28985.jpg",
+            img: "https://www.starlingholistic.co.uk/uploads/1/3/8/4/138425273/starling-holistic-shirodhara-720_orig.jpg",
         },
         {
             title: "Weight Management",
             description: "Herbal weight control.",
-            img: "https://img.freepik.com/free-photo/fitness-healthy-lifestyle-concept_23-2147776236.jpg",
+            img: "https://divafashionhub.com/wp-content/uploads/2024/10/Weight-loss-to-weight-management-1.png",
         },
         {
             title: "Thyroid Regulation",
             description: "Natural hormone balance.",
-            img: "https://img.freepik.com/free-photo/thyroid-treatment-ayurveda-concept_1150-28991.jpg",
+            img: "https://thebiostation.com/wp-content/uploads/2017/08/the-biostation-understanding-hashimotos-disease-hypothyroidism-featured-1.jpg",
         },
         {
             title: "Diabetes Reversal",
             description: "Manage naturally.",
-            img: "https://img.freepik.com/free-photo/ayurvedic-treatment-diabetes-concept_1150-28995.jpg",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKdhdPDiBKhKMawKmQLMWle29_0F5uupPYuA&s",
         },
         {
             title: "Joint Pain Relief",
             description: "Arthritis & joint care.",
-            img: "https://img.freepik.com/free-photo/joint-pain-ayurvedic-treatment_1150-29001.jpg",
+            img: "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1849185.jpg",
+        },
+        {
+            title: "Panchakarma",
+            description: "Detoxification therapy.",
+            img: "https://aradhanaayurveda.com/wp-content/uploads/2024/07/What-Role-Does-Panchakarma-Play-in-Ayurvedic-Weight-Management-in-Hyderabad.jpg",
+        },
+        {
+            title: "Herbal Therapy",
+            description: "Personalized herbal treatment.",
+            img: "https://pharmaceutical-journal.com/wp-content/uploads/2021/01/herbal-medicines-ss-18-scaled.jpg",
+        },
+        {
+            title: "Nadi Pariksha",
+            description: "Pulse diagnosis.",
+            img: "https://www.naditarangini.com/wp-content/uploads/2024/04/AYURVEDA-PULSE.webp",
+        },
+        {
+            title: "Abhyanga",
+            description: "Oil massage therapy.",
+            img: "https://vlcc.com/_next/image?url=https%3A%2F%2Fd146hunxuupfmg.cloudfront.net%2Fblog_images%2Fjpeg-optimizer_AdobeStock_330894715.webp&w=3840&q=75",
+        },
+        {
+            title: "Basti",
+            description: "Medicated enema treatment.",
+            img: "https://atmabodhwellness.com/wp-content/uploads/2023/12/bastikarma.jpg",
         },
     ]
     const duplicated1 = [...services1, ...services1]; // duplicate for infinite effect
